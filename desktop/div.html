@@ -1,0 +1,35 @@
+<style>
+#grey_box {  
+    width: 200px;  
+    height: 200px;  
+    border: solid 1px #ccc;  
+    background: #ddd;  
+	 position: absolute;
+    z-index: 3;
+		margin-top:0px;
+		opacity: 0.0;
+} 
+
+#blue_box {  
+    width: 200px;  
+    height: 200px;  
+    border: solid 1px #4a7497;  
+    background: #8daac3; 
+	 position: absolute;
+    z-index: 2;  
+	margin-top:0px
+} 
+
+#gold_box {  
+    width: 200px;  
+    height: 200px;  
+    border: solid 1px #8b6125;  
+    background: #ba945d;  
+ position: absolute;
+    z-index: 1;  
+	margin-top:0px
+}
+</style>
+<div id='grey_box'><button value='third' onclick="alert('third')">third</button></div>
+<div id='blue_box'><button value='second' onclick="alert('second')">second</button></div>
+<div id='gold_box'><button value='first' onclick="alert('first')">first</button></div>
